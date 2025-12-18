@@ -19,12 +19,6 @@ struct FObjecPoolActivationData
 
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, category = "ObjectPoolStruct")
 	FName ObjectPoolName;
-	
-	UPROPERTY(BlueprintReadWrite, EditAnywhere, category = "ObjectPoolStruct")
-	UMaterialInstance* MaterialInstance;
-	
-	UPROPERTY(BlueprintReadWrite, EditAnywhere, category = "ObjectPoolStruct")
-	float Damage;
 };
 
 USTRUCT(BlueprintType)
